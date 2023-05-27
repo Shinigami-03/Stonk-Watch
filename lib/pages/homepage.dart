@@ -192,32 +192,32 @@ class _homepageState extends State<homepage> {
               ),
             ],
           ),
-          bottomNavigationBar: GNav(
-            backgroundColor: Color.fromARGB(255, 15, 15, 16),
-            color: Color.fromARGB(255, 243, 240, 241),
-            activeColor: Colors.white,
-            tabBackgroundColor: Colors.grey.shade800,
-            gap: 8,
-            padding: EdgeInsets.all(16),
-            tabs: [
-              GButton(
-                icon: Icons.home,
-                text: 'Home',
-              ),
-              GButton(
-                icon: Icons.list,
-                text: 'List',
-              ),
-              GButton(
-                icon: Icons.search,
-                text: 'Search',
-              ),
-              GButton(
-                icon: Icons.settings,
-                text: 'setting',
-              ),
-            ],
-          ),
+          // bottomNavigationBar: GNav(
+          //   backgroundColor: Color.fromARGB(255, 15, 15, 16),
+          //   color: Color.fromARGB(255, 243, 240, 241),
+          //   activeColor: Colors.white,
+          //   tabBackgroundColor: Colors.grey.shade800,
+          //   gap: 8,
+          //   padding: EdgeInsets.all(16),
+          //   tabs: [
+          //     GButton(
+          //       icon: Icons.home,
+          //       text: 'Home',
+          //     ),
+          //     GButton(
+          //       icon: Icons.list,
+          //       text: 'List',
+          //     ),
+          //     GButton(
+          //       icon: Icons.search,
+          //       text: 'Search',
+          //     ),
+          //     GButton(
+          //       icon: Icons.settings,
+          //       text: 'setting',
+          //     ),
+          //   ],
+          // ),
           body: Padding(
             padding: EdgeInsets.all(16.0),
             child: ListView(
